@@ -1,0 +1,2 @@
+config CONFIG_BOARDNAME
+    default "sama5d2_jacobian" if CONFIG_SAMA5D2_JACOBIAN

@@ -65,4 +65,8 @@
 #include "sama5d3_linea.h"
 #endif
 
+#ifdef CONFIG_SAMA5D2_JACOBIAN
+#include "sama5d2_jacobian.h"
+#endif
+
 #endif

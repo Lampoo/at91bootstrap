@@ -1,0 +1,2 @@
+config CONFIG_LINUX_KERNEL_ARG_STRING
+	default "console=ttyS0,115200 mtdparts=f0020000.spi:4M(bootstrap/kernel)ro,12M(rootfs),-(data) root=/dev/mtdblock1 ro rootfstype=ext4 init=/init androidboot.hardware=jacobian"
